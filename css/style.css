@@ -92,6 +92,24 @@
 	to {top: 150px; left: 1000px}
 }
 
+.tree-div {
+	position: absolute;
+	top: 350px;
+	left: 900px;
+	animation: tree-div 3s infinite linear;
+	animation-direction: alternate;
+}
+
+.tree {
+	width: 200px;
+	justify-self: 300px;
+}
+
+@keyframes tree-div {
+	from {top: 350px; left: 900px}
+	to {top: 350px; left: 930px}
+}
+
 
 
 
