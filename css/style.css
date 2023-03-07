@@ -1,0 +1,107 @@
+.container {
+	background-color: #191970;
+	width: 1440px;
+	height: 850px;
+	padding-top: 60px;
+}
+
+.img-background {
+	width: 1300px;
+	height: 700px;
+
+
+}
+
+.relative-box {
+	position: relative;
+	width: 1300px;
+	height: 700px;
+	margin: 0 auto;	
+	overflow: hidden;
+	box-shadow: 5px 10px 15px yellow;
+}
+
+.santa-div {
+	position: absolute;
+	left: 0;
+	top: 0;
+	animation: santa-div 7s infinite ease-in;
+	z-index: 50;
+}
+
+.santa {
+	width: 500px;
+	height: 320px;
+}
+
+@keyframes santa-div {
+	from {left: -700px}
+	to {left: 1300px}
+}
+
+.moon-div {
+	position: absolute;
+	top: 0;
+	left: 200px;
+	animation: moon-div 7s infinite linear;
+	z-index: 40;
+}
+
+.moon {
+	width: 250px;
+	height: 250px;
+}
+
+@keyframes moon-div {
+	from {top: -250px}
+	to {top: 250px}
+}
+
+.snowman-div {
+	position: absolute;
+	top: 400px;
+	left: 600px;
+	animation: snowman-div 7s infinite linear;
+}
+
+.snowman {
+	width: 300px;
+	height: 300px;
+}
+
+ @keyframes snowman-div {
+	from {top: 400px; left: 600px}
+	to {top: 450px; left: 400px}
+}
+
+.star-div {
+	position: absolute;
+	top: 100px;
+	left: 900px;
+	animation: star-div 3s infinite linear;
+	animation-direction: alternate;
+}
+
+.star {
+	width: 200px;
+	height: 200px;
+}
+
+@keyframes star-div {
+	from {top: 100px; left: 900px}
+	to {top: 150px; left: 1000px}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
