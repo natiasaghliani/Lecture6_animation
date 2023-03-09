@@ -1,4 +1,10 @@
+body {
+	background-color: #191970;
+}
+
+
 .container {
+	margin: 0 auto;
 	background-color: #191970;
 	width: 1440px;
 	height: 850px;
